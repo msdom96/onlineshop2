@@ -1,0 +1,17 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "Nodejs by domzin",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon node app.js"
+  },
+  "author": "MSDom",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
