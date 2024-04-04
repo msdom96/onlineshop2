@@ -23,7 +23,7 @@ app.use('/admin', adminData.routes);
 app.use(shopRoutes);
 
 app.use((req, res, next) => {
-    res.status(404).render('404'); // Render the Pug file named '404.pug' in the 'views' directory
+    res.status(404).render('404', {pageTitle: '404ed'}); // Render the Pug file named '404.pug' in the 'views' directory
 });
 
 app.listen(3000);
